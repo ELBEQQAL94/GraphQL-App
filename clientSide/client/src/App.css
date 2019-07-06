@@ -1,0 +1,7 @@
+body {
+    height: 3000px;
+}
+/* REGISTER PAGE */
+.ui input {
+    border:2px dashed rgba(20, 187, 200, 0.9) !important
+}

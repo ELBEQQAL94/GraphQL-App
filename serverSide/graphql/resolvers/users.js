@@ -86,7 +86,8 @@ module.exports = {
                 createdAt: new Date().toISOString()
             }); 
             const res = await new_user.save();
-            const token = generateToken(user);
+            
+            const token = generateToken(new_user);
 
             return {
                 ...res._doc,
